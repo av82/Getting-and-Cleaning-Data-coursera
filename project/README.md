@@ -16,7 +16,8 @@
 
 ### Cleaning, merging data (run_analysis.R script description)
 
-*The script run_analysis.R loads plyr, dplyr, reshape2 libraries.
+The script run_analysis.R loads plyr, dplyr, reshape2 libraries.
+
 * **readData()**: The method creates a data directory if there is not one, downloads the data from the **Data Source** 
 * **mergeData()**: The downloaded data is read into corresponding tables (x,y,subject from train, test data sets). The data is merged into a single data frame by merging train, test data sets.
 * **extractData()**: The X variable is subsetted and filtered such that only **mean**, **standard deviation** columns are considered.
